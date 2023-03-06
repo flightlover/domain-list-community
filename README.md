@@ -68,7 +68,7 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 ## Generate `dlc.dat` manually
 
 - Install `golang` and `git`
-- Clone project code: `git clone https://github.com/v2fly/domain-list-community.git`
+- Clone project code: `git clone https://github.com/flightlover/domain-list-community.git`
 - Navigate to project root directory: `cd domain-list-community`
 - Install project dependencies: `go mod download`
 - Generate `dlc.dat` (without `datapath` option means to use domain lists in `data` directory of current working directory):
